@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.apple.RecordsActivity"
+    android:orientation="horizontal"
+    android:background="@color/fon">
+
+    <LinearLayout
+        android:layout_width="576dp"
+        android:layout_height="319dp"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="8dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_marginStart="8dp"
+            android:text="Рекорды"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="26sp"
+            android:textStyle="bold|italic"
+            app:layout_constraintHorizontal_bias="0.609"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:shrinkColumns="*"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/tableRowName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number"
+                    android:text="Позиция"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tableRowName_Player"
+                    android:text="Игрок"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tableRowName_Attempt"
+                    android:text="Попыток"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tableRowName_Time"
+                    android:text="Время"
+                    android:textAlignment="center"
+                    android:textSize="22sp"
+                    android:textStyle="bold|italic"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number1"
+                    android:text="1"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer1_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer1_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer1_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number2"
+                    android:text="2"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer2_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer2_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer2_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number3"
+                    android:text="3"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer3_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer3_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer3_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number4"
+                    android:text="4"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer4_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer4_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer4_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number5"
+                    android:text="5"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer5_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer5_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer5_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number6"
+                    android:text="6"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer6_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer6_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer6_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number7"
+                    android:text="7"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer7_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer7_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer7_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number8"
+                    android:text="8"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer8_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer8_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer8_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow9"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number9"
+                    android:text="9"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer9_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer9_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer9_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/tableRow10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:id="@+id/Number10"
+                    android:text="10"
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer10_Name"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer10_Attempt"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+
+                <TextView
+                    android:id="@+id/tvPlayer10_Time"
+                    android:text=""
+                    android:textAlignment="center"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:typeface="serif"></TextView>
+            </TableRow>
+        </TableLayout>
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
